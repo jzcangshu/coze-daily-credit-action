@@ -41,7 +41,7 @@ npx playwright codegen https://www.coze.cn/home --save-storage=storage_state.jso
 
 ## 定时
 
-`.github/workflows/coze-daily.yml` 里的 cron 是 `30 22 * * *`，对应北京时间每天 06:30 左右。真正访问 Coze 前会再随机等待 0 到 180 秒。GitHub Actions（GitHub 自动化流水线）本身也可能会有几分钟延迟。
+`.github/workflows/coze-daily.yml` 里的 cron 是 `30 21 * * *`，对应北京时间每天 05:30 左右。真正访问 Coze 前会再随机等待 0 到 180 秒。GitHub Actions（GitHub 自动化流水线）本身也可能会有几分钟延迟。
 
 ## 本地测试
 
